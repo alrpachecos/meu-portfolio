@@ -52,14 +52,6 @@ export function Footer() {
                   Projetos
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="#contato"
-                  className="text-muted-foreground hover:text-foreground transition-colors"
-                >
-                  Contato
-                </Link>
-              </li>
             </ul>
           </div>
 

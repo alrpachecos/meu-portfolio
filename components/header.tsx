@@ -61,12 +61,6 @@ export function Header() {
           >
             Projetos
           </Link>
-          <Link
-            href="#contato"
-            className="text-foreground/80 hover:text-foreground transition-colors"
-          >
-            Contato
-          </Link>
           <ModeToggle />
         </nav>
 

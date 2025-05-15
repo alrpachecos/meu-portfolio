@@ -1,9 +1,9 @@
-"use client"
+'use client';
 
-import { Button } from "@/components/ui/button"
-import { motion } from "framer-motion"
-import { ArrowDown } from "lucide-react"
-import Link from "next/link"
+import { Button } from '@/components/ui/button';
+import { motion } from 'framer-motion';
+import { ArrowDown } from 'lucide-react';
+import Link from 'next/link';
 
 export function HeroSection() {
   return (
@@ -17,13 +17,20 @@ export function HeroSection() {
 
       <div className="container px-4 md:px-6">
         <div className="flex flex-col items-center text-center space-y-8">
-          <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.5 }}>
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+          >
             <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold tracking-tighter mb-4">
-              Desenvolvedor{" "}
+              Desenvolvedor{' '}
               <span className="bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text text-transparent">
                 Front-End
-              </span>{" "}
-              e <span className="bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text text-transparent">Mobile</span>
+              </span>{' '}
+              e{' '}
+              <span className="bg-gradient-to-r from-teal-500 to-cyan-500 bg-clip-text text-transparent">
+                Mobile
+              </span>
             </h1>
           </motion.div>
 
@@ -34,8 +41,9 @@ export function HeroSection() {
             className="max-w-3xl"
           >
             <p className="text-lg md:text-xl text-muted-foreground">
-              Transformando ideias em experiências digitais excepcionais com JavaScript, TypeScript, React, React Native
-              e NextJs.
+              Transformando ideias em experiências digitais
+              excepcionais com JavaScript, TypeScript, React, React
+              Native e NextJs.
             </p>
           </motion.div>
 
@@ -52,20 +60,21 @@ export function HeroSection() {
             >
               <Link href="#projetos">Ver Projetos</Link>
             </Button>
-            <Button asChild variant="outline" size="lg">
-              <Link href="#contato">Entre em Contato</Link>
-            </Button>
           </motion.div>
         </div>
       </div>
 
       <div className="absolute bottom-10 left-1/2 transform -translate-x-1/2 animate-bounce">
         <Link href="#sobre">
-          <Button variant="ghost" size="icon" className="rounded-full">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="rounded-full"
+          >
             <ArrowDown className="h-6 w-6" />
           </Button>
         </Link>
       </div>
     </section>
-  )
+  );
 }
