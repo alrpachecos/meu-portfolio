@@ -4,10 +4,11 @@ Bem-vindo ao meu portfólio pessoal, desenvolvido com foco em performance, desig
 
 🔗 Acesse aqui: https://andreresende.vercel.app/
 
-✨ Sobre o projeto
+### ✨ Sobre o projeto
+
 Este portfólio tem como objetivo apresentar minhas habilidades, projetos e experiências profissionais de forma clara e organizada. A aplicação é totalmente responsiva, garantindo uma ótima experiência em dispositivos móveis e desktops.
 
-🚀 Tecnologias utilizadas
+### 🚀 Tecnologias utilizadas
 
 - Next.js
 - TypeScript
@@ -15,7 +16,7 @@ Este portfólio tem como objetivo apresentar minhas habilidades, projetos e expe
 - PostCSS
 - pnpm
 
-📁 Estrutura do projeto
+### 📁 Estrutura do projeto
 
 ```
 ├── app/                 # Páginas e rotas da aplicação
@@ -30,25 +31,7 @@ Este portfólio tem como objetivo apresentar minhas habilidades, projetos e expe
 └── next.config.mjs      # Configuração do Next.js
 ```
 
-🛠️ Como executar localmente
-
-1. Clone o repositório:
-
-`git clone https://github.com/alrpachecos/meu-portfolio.git`
-<br><br>
-&nbsp;Acesse o diretório do projeto: `cd meu-portfolio`
-
-2. Instale as dependências com pnpm:
-
-`pnpm install`
-
-3. Inicie o servidor de desenvolvimento:
-
-`pnpm dev`
-
-4. Acesse http://localhost:3000 no seu navegador para visualizar o projeto.
-
-📌 Funcionalidades
+### 📌 Funcionalidades
 
 - Layout responsivo e moderno
 - Seções dedicadas para projetos, habilidades e contato
